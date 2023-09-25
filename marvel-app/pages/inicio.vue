@@ -1,9 +1,7 @@
 <template>
-    <div>
-        <h1>Esto es solo un inicio</h1>
-    </div>
-    
+  <h1>Esto solo es un inicio</h1>
 </template>
+
 
 <script setup>
 
@@ -22,3 +20,4 @@ const cargar_personajes = async () => {
 cargar_personajes();
 
 </script>
+
