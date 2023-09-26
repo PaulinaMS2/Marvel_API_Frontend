@@ -7,16 +7,17 @@
       
           <v-img src="../public/imagenAppBar.png" max-height="70" 
           ></v-img>
+          
         
 
       </v-app-bar>
 
-      <v-navigation-drawer v-model="drawer" location="up" temporary max-height="70">
+      <v-navigation-drawer v-model="drawer" location="down" temporary max-height="70" color="gray">
       
         <NuxtLink to="/inicio">
           <v-list-item><v-icon icon="mdi-view-dashboard" style="color: #2d355e;"/>    Inicio    </v-list-item>
         </NuxtLink>
-        <NuxtLink to="/">
+        <NuxtLink to="/personajes">
           <v-list-item><v-icon icon="mdi-weather-hurricane" style="color: #2d355e;"/>  Personajes Marvel  </v-list-item>
         </NuxtLink>
       </v-navigation-drawer>
@@ -31,8 +32,8 @@
   a {
   text-decoration: none; /* Quitar subrayado */
   color: black;
+  }
 
-}
   .appbar{
     overflow: hidden !important;
   }
