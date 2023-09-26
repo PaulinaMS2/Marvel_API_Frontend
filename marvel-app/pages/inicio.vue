@@ -1,6 +1,12 @@
-<template>
-  <h1>Esto solo es un inicio</h1>
+<template >
+  
 </template>
+
+<style>
+.container{
+  overflow: hidden !important;
+}
+</style>
 
 
 <script setup>

@@ -2,18 +2,22 @@
   <v-card>
     <v-layout>
 
-      <v-app-bar class="app-bar" color="black" >
-        <v-app-bar-nav-icon variant="text" @click.stop="drawer = !drawer"></v-app-bar-nav-icon>
+      <v-app-bar class="appbar" color=#2d355e>
+        <v-app-bar-nav-icon variant="prominent" @click.stop="drawer = !drawer"></v-app-bar-nav-icon>
+      
+          <v-img src="../public/imagenAppBar.png" max-height="70" 
+          ></v-img>
+        
 
       </v-app-bar>
 
-      <v-navigation-drawer v-model="drawer" location="up" temporary>
+      <v-navigation-drawer v-model="drawer" location="up" temporary max-height="70">
       
-        <NuxtLink to="/">
-          <v-list-item><v-icon icon="" style="color: black;"/> Inicio  </v-list-item>
+        <NuxtLink to="/inicio">
+          <v-list-item><v-icon icon="mdi-view-dashboard" style="color: #2d355e;"/>    Inicio    </v-list-item>
         </NuxtLink>
-        <NuxtLink to="/characters">
-          <v-list-item><v-icon icon="" style="color: black;"/> Personajes Marvel </v-list-item>
+        <NuxtLink to="/">
+          <v-list-item><v-icon icon="mdi-weather-hurricane" style="color: #2d355e;"/>  Personajes Marvel  </v-list-item>
         </NuxtLink>
       </v-navigation-drawer>
       <v-main >
@@ -23,7 +27,16 @@
     </v-layout>
   </v-card>
 </template>
+<style scoped>
+  a {
+  text-decoration: none; /* Quitar subrayado */
+  color: black;
 
+}
+  .appbar{
+    overflow: hidden !important;
+  }
+</style>
 
 <script>
 export default {
