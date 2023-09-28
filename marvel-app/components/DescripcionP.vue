@@ -54,7 +54,7 @@ export default {
     .imagenDescr{
         width: 500px !important; /* Ancho de la imagen */
         height: 500px !important; /* Altura de la imagen */
-        border-radius: 100%; /* Hace que la imagen sea circular */
+        border-radius: 45%; /* Hace que la imagen sea circular */
     }
 
     .info{

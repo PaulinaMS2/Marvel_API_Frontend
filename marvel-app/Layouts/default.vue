@@ -14,7 +14,7 @@
 
       <v-navigation-drawer v-model="drawer" location="down" temporary max-height="70" color="gray">
       
-        <NuxtLink to="/index">
+        <NuxtLink to="/">
           <v-list-item><v-icon icon="mdi-view-dashboard" style="color: #2d355e;"/>    Inicio    </v-list-item>
         </NuxtLink>
         <NuxtLink to="/personajes">

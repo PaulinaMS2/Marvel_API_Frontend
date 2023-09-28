@@ -3,7 +3,7 @@
       <div class="container">
         <div class="left-content">
           <h2>Sobre mí</h2>
-          <img class="fotoMi" src="Foto.jpeg">
+          <img class="fotoMi" src="/public/Foto.jpeg">
           <br>
           <br>
           <p>Mi nombre es Paulina Muñoz Saldarriaga, tengo 19 años, soy estudiante de ingenieria de sistemas
@@ -22,7 +22,7 @@
       <div class="right-content">
         <h2>Marvel</h2>
         <br>
-        <p>El API de Marvel Comics, desarrollado por Marvel Entertainment, es una interfaz de programación de aplicaciones
+        <p>El API de Marvel Comics, desarrollado por Marvel EnStertainment, es una interfaz de programación de aplicaciones
            (API) que proporciona acceso a una vasta cantidad de datos relacionados con los personajes, cómics, series y 
            eventos del universo de Marvel Comics. Esta API permite a desarrolladores y entusiastas acceder y utilizar
             información detallada sobre el extenso mundo de Marvel para crear aplicaciones, sitios web y servicios 
