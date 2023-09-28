@@ -74,7 +74,6 @@
   .personaje-img {
       width: 300px !important;
       height: 300px !important;
-
   }
 
   .info{
